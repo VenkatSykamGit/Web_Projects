@@ -62,9 +62,139 @@ a {
     color: #E5E7EB;
 }
 
+.text-container1 {
+    margin: 10px 0px;
+}
+
+.button-container1 {
+    background-color: #3882F6;
+    color: white;
+    font-size: 15px;
+    padding: 5px 20px;
+    width: 115px;
+    border: #3882F6;
+    border-radius: 5px;
+}
+
 .image-side-container1 {
-    padding: 86.25px 100px;
+    padding: 99px 100px;
     background-color: rgb(164, 157, 157);
+}
+
+.placeholder-text {
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    padding: 53px;
+}
+
+.title-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.four-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 130px;
+}
+
+.empty-rectangle {
+    width: 125px;
+    height: 120px;
+    background-color: white;
+    border: 5px solid rgb(17, 152, 210);
+    border-radius: 14%;
+    margin-bottom: 8px;
+}
+
+.text-container2 {
+    text-align: center;
+}
+
+.container3 {
+    padding: 87.75px;
+    background-color:rgb(238, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container3 {
+    max-width: 630px;
+    font-size: 28px;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+.cite-container3 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 250px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.bluebox-container4 {
+    padding: 50px 100px;
+    background-color: #3882F6;
+}
+
+.header-container4 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text-container4 {
+    color: white;
+    font-size: 14px;
+}
+
+.button-box-container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 61.21px;
+    height: 143.5px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.button-container4 {
+    background-color: #3882F6;
+    color: white;
+    font-size: 15px;
+    padding: 5px 20px;
+    width: 100px;
+    border: 2px solid white;
+    border-radius: 12px;
 }
 
 .footer {
@@ -74,5 +204,5 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 15px;
 }
