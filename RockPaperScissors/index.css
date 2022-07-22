@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 200px;
+}
+
+.rock {
+    background-color: #8c5a4b;
+    padding: 100px;
+}
+
+.paper {
+    background-color: lightgray;
+    padding: 100px;
+}
+
+.scissors {
+    background-color: lightblue;
+    padding: 100px;
+}
+
