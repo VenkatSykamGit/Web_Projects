@@ -1,2 +1,2 @@
-# HTML_Projects
-All HTML related projects will be stored within this repository.
+# Web_Projects
+Projects built using HTML, CSS, and JavaScript
