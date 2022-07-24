@@ -9,23 +9,45 @@ body {
     margin: 0;
 }
 
+.title {
+    position: absolute;
+    margin-bottom: 600px;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subheading1 {
+    margin-bottom: 105px;
+}
+
 .buttons {
     display: flex;
     gap: 200px;
+    margin-top: 250px;
 }
 
-.rock {
-    background-color: #8c5a4b;
-    padding: 100px;
-}
-
-.paper {
+.options {
     background-color: lightgray;
     padding: 100px;
 }
 
-.scissors {
-    background-color: lightblue;
-    padding: 100px;
+.result {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.score-info {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.reset {
+    font-size: 15px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(243, 200, 131);
 }
 

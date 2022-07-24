@@ -9,22 +9,26 @@
     <title>Play RPS</title>
 </head>
 <body>
-    <div class="title">Welcome! Play against the computer in a simple game of Rock Paper Scissors. Best of Luck!</div>
+    <div class="title">
+        <div class="subheading1">Welcome!</div> 
+        <div class="subheading2">Play against the computer in a simple game of Rock Paper Scissors. Best of Luck!</div>
+    </div>
     
     <div class="buttons">
-        <button class="rock">Rock</button>
-        <button class="paper">Paper</button>
-        <button class="scissors">Scissors</button>
+        <input class="options" type="image" src="assets/rock.svg" value="rock" />
+        <input class="options" type="image" src="assets/paper.svg" value="paper" />
+        <input class="options" type="image" src="assets/scissors.svg" value="scissors" />
     </div>
+
+    <div class="result" id="result"></div>
 
     <div class="score-info">
         <div class="score-update">
-            <div class="current-score">Current Score</div>
-            <div class="playerScore">Your Score</div>
-            <div class="computerScore">Computer Score</div>
+            <div class="playerScore" id="playerScore">Your Score: 0</div>
+            <div class="computerScore" id="computerScore">Computer Score: 0</div>
         </div>
 
-        <div class="reset">Reset Score</div>
+        <button class="reset" id="reset">Reset Score</button>
     </div>
 </body>
 </html>   
